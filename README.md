@@ -1,7 +1,11 @@
 Alunos 
+
+
+
 Gabriel Fernando Gimenez RM:92957
 Matheus da Silva Cerqueira RM:99996
 
+Projeto desenvolvido por nós como parte da Global Solution. Todo o código foi construído com base em nossas aulas e pesquisas.
 
 
 ![image](https://github.com/user-attachments/assets/abf5da6e-b596-4d76-bd45-72453efa3b20)
