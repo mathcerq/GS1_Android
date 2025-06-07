@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/tvTitulo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🌪️ Registro de Eventos Extremos"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:paddingBottom="16dp" />
+
+        <EditText
+            android:id="@+id/etLocal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nome do local" />
+
+        <EditText
+            android:id="@+id/etTipo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Tipo do evento" />
+
+        <EditText
+            android:id="@+id/etImpacto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Grau de impacto" />
+
+        <EditText
+            android:id="@+id/etData"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Data do evento" />
+
+        <EditText
+            android:id="@+id/etPessoas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Número de pessoas afetadas"
+            android:inputType="number" />
+
+        <Button
+            android:id="@+id/btnIncluir"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Incluir"
+            android:layout_marginTop="12dp" />
+
+        <Button
+            android:id="@+id/btnIdentificacao"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ver Participantes"
+            android:layout_marginTop="8dp" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvEventos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp" />
+    </LinearLayout>
+</ScrollView>
